@@ -15,10 +15,10 @@ const AccordionPage = () => {
   return (
     <>
       <section>
-        <h1 className="text-5xl leading-normal text-center font-bold mt-20 mb-12">
+        <h1 className="text-3xl md:text-5xl leading-normal text-center font-bold mt-20 mb-12">
           Discover related topics
         </h1>
-        <div className="flex flex-col gap-[10px] min-w-[500px] w-2/3 m-auto ">
+        <div className="flex flex-col gap-[10px] min-w-[290px] w-2/3 m-auto ">
           <Accordion
             title="Fitzrovia"
             text="Fitzrovia is a district in central London, near London's West End lying partly in the City of Westminster (in the west), and partly in the London Borough of Camden (in the east); north of Oxford Street and Soho between Bloomsbury and Marylebone. It is characterised by its mixed-use of residential, business, retail, education and healthcare, with no single activity dominating. The historically bohemian area was once home to such writers as Virginia Woolf, George Bernard Shaw and Arthur Rimbaud."
@@ -50,8 +50,8 @@ const AccordionPage = () => {
             handleToggle={() => handleAccordionToggle(4)}
           />
         </div>
-        <div className="flex flex-col items-center m-auto justify-center mt-12 text-xl font-bold leading-[64px] w-[58%] text-center">
-          <p className="">
+        <div className="flex flex-col items-center m-auto justify-center mt-12 sm:text-xl font-bold gap-4 md::leading-[64px] p-6 md:w-[58%] text-center">
+          <p>
             Check whether superfast broadband is available, and see how popular
             it is.
           </p>
