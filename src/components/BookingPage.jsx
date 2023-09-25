@@ -8,11 +8,11 @@ const BookingPage = () => {
   return (
     <>
       <section className="flex flex-col gap-7 min-w[300px]">
-        <h2 className="text-accent text-4xl sm:text-5xl font-bold leading-normal py-6 text-center sm:text-start sm:px-[87px] bg-secondary">
+        <h2 className="text-accent text-4xl sm:text-5xl font-bold leading-normal py-6 text-start px-4 sm:px-[87px] bg-secondary">
           Booking
           <span className="text-accent-2">.com</span>
         </h2>
-        <div className="grid grid-rows-4 lg:grid-cols-4 px-8 lg:px-[83px] gap-10">
+        <div className="grid grid-rows-4 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 px-8 lg:px-[83px] gap-10">
           <form className="flex flex-col px-6 pt-6 gap-4 bg-[#D9D9D933] rounded-lg h-max">
             <div className="flex flex-col gap-4">
               <label htmlFor="search">Search</label>

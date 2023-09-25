@@ -50,7 +50,7 @@ const AccordionPage = () => {
             handleToggle={() => handleAccordionToggle(4)}
           />
         </div>
-        <div className="flex flex-col items-center m-auto justify-center mt-12 sm:text-xl font-bold gap-4 md::leading-[64px] p-6 md:w-[58%] text-center">
+        <div className="flex flex-col items-center m-auto justify-center mt-12 sm:text-xl font-bold gap-4 lg:leading-[64px] p-6 md:w-[90%] lg:w-[58%] text-center">
           <p>
             Check whether superfast broadband is available, and see how popular
             it is.

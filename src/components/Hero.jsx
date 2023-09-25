@@ -3,9 +3,9 @@ import Map from "../assets/hero.jpg";
 const Hero = () => {
   return (
     <>
-      <header className="flex flex-col md:flex-row justify-between px-6 lg:px-[190px] gap-6 h-[calc(80vh+100px)] items-center min-w-[300px]">
+      <header className="flex flex-col md:flex-row justify-evenly md:justify-between px-6 lg:px-[190px] md:gap-6 mt-10 h-[calc(90vh+100px)] items-center min-w-[300px]">
         <section className="p-4 flex flex-col items-center md:items-start">
-          <h1 className="text-primary text-center md:text-start pt-20 text-2xl md:text-[56px] md:leading-normal font-extrabold">
+          <h1 className="text-primary text-center md:text-start pt-20 md:pt-0 text-2xl md:text-[40px] md:leading-normal font-extrabold">
             Check My Postcode
           </h1>
           <p className="text-dark text-2xl leading-normal text-center md:text-start">

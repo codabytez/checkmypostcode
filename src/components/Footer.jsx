@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-primary flex flex-col justify-between mt-[100px] min-w-[300px]">
-      <div className="lg:px-[120px] py-[100px] flex flex-col justify-center lg:flex-row lg:justify-evenly gap-32">
+      <div className="lg:px-[120px] py-[100px] flex flex-col justify-center lg:flex-row lg:justify-evenly gap-10 lg:gap-32">
         <div className="flex flex-col text-white sm:text-2xl items-center text-center lg:items-start lg:text-start">
           <p className="leading-[48px]">Search</p>
           <p className="leading-[48px]">
